@@ -3,7 +3,7 @@ document.querySelectorAll(".square").forEach(square => {
     square.addEventListener("mouseenter", function () {
         document.querySelectorAll(".square").forEach(sq => {
             if (sq !== this) {
-                sq.style.backgroundColor = "rgb(111, 78, 55)"; 
+                sq.style.backgroundColor = "#6F4E37"; 
             }
         });
     });
